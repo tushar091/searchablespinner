@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_invoice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:drawableRight="@drawable/ic_drop_down"
+        android:paddingLeft="@dimen/nav_image_hight"
+        android:paddingRight="@dimen/padding_email"
+        android:textColor="@color/white"
+        android:textColorHint="@color/colorAccent">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/search_beat_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/speaker_image_size"
+            android:layout_gravity="clip_horizontal"
+            android:background="@color/transparent"
+            android:drawableRight="@drawable/ic_drop_down"
+            android:gravity="center|left"
+            android:singleLine="true"
+            android:textColor="@color/white"/>
+    </android.support.design.widget.TextInputLayout>
+
+</merge>

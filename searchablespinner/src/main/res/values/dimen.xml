@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nav_image_hight">24dp</dimen>
+    <dimen name="padding_email">20dp</dimen>
+    <dimen name="speaker_image_size">40dp</dimen>
+    <dimen name="item_myinfo_top_padding">10dp</dimen>
+</resources>
